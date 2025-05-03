@@ -1,5 +1,5 @@
 -- Digitone CC Randomizer v1.1
--- Adapted by HANJO + ChatGPT, Tokyo, Japan.
+-- Adapted by HANJO, Tokyo, Japan.
 --
 -- K3: Randomize CC values on the current page.
 -- E1: Change page.
