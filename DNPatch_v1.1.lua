@@ -163,11 +163,11 @@ function redraw()
     draw_slot(i, y, current_data, 68)
   end
 
-  screen.move(4, 60)
+  screen.move(96, 60)
   screen.text("K3: Roll")
   screen.move(54, 60)
   screen.text(string.format("E1:%02d", current_page))
-  screen.move(96, 60)
+  screen.move(4, 60)
   screen.text(edit_mode == "cc" and "CC" or edit_mode == "value" and "VAL" or string.format("MIDI %02d", params:get("midi_channel")))
   screen.update()
 end
